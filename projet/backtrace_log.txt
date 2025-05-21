@@ -1,0 +1,13 @@
+ASSERT FAILED: [x>=0 && x<Nx() && y>=0 && y<Ny()] with message: (x,y)=(15,12) out of limit [Nx=0 , Ny=0]
+In file [/mnt/c/Users/Pouch/Desktop/Rendu/projet/src/image/template/image_basic.tpp] 
+In function [operator()]
+At line 95 
+
+0       0x563bf7060d52 ./pgm(+0x3bd52) [0x563bf7060d52]
+1       0x563bf7052a69 ./pgm(+0x2da69) [0x563bf7052a69]
+2       0x563bf7050d7b ./pgm(+0x2bd7b) [0x563bf7050d7b]
+3       0x563bf70511f5 ./pgm(+0x2c1f5) [0x563bf70511f5]
+4       0x563bf704e20a ./pgm(+0x2920a) [0x563bf704e20a]
+5       0x7f8bf53f9d90 /lib/x86_64-linux-gnu/libc.so.6(+0x29d90) [0x7f8bf53f9d90]
+6       0x7f8bf53f9e40 __libc_start_main + 128
+7       0x563bf704e395 ./pgm(+0x29395) [0x563bf704e395]
