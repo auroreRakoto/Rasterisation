@@ -16,6 +16,8 @@ The project includes implementations of:
 
 By reproducing these techniques entirely on the CPU, it helps demystify what happens behind the scenes in modern GPU-based rendering.
 
+English report is available if needed.
+
 ---
 
 ## Features
