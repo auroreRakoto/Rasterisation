@@ -1,8 +1,8 @@
-# TP de rendu projectif
+# Projective Rendering TP
 
 ## Compilation 
 
-### Depuis le Makefile 
+### From the Makefile 
 
 ```sh
 cd projet
@@ -10,7 +10,7 @@ make
 ./pgm
 ```
 
-### Depuis le CMakeLists.txt
+From the CMakeLists.txt
 
 ```sh 
 mkdir build
@@ -21,7 +21,7 @@ cd ../projet
 ../build/pgm
 ```
 
-ou 
+or
 
 ```sh 
 cd projet
@@ -31,7 +31,9 @@ make -C ../build
 ../build/pgm
 ```
 
-### Depuis un IDE (VSCode, QtCreator, etc).
+### From an IDE (VSCode, QtCreator, etc).
 
-Le répertoire d'execution doit être dans projet/
-C'est a dire que le répertoire data/ doit être accessible.
+
+The execution directory must be inside projet/
+
+That is, the data/ directory must be accessible.
